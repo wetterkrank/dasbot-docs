@@ -25,7 +25,7 @@ export default function Home() {
           <div className="mt-10 flex items-center gap-x-6">
             <TelegramButton url="https://t.me/derdiedas_quizbot" />
             <a
-              href="#"
+              href="/grammar"
               className="text-base font-semibold leading-7 text-gray-900"
             >
               Read the grammar <span aria-hidden="true">→</span>
