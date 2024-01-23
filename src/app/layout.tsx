@@ -33,9 +33,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="bg-white">
-      <body className={inter.className}>
-        {children}
+    <html lang="en">
+      <body className={`${inter.className} bg-white min-h-screen flex flex-col`}>
+        <div className="flex-1">
+          {children}
+        </div>
         <Footer />
       </body>
     </html>

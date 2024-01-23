@@ -1,5 +1,5 @@
 const Footer = () => (
-  <footer className="w-full h-16 bg-slate-50">
+  <footer className="w-full h-20 bg-slate-50">
     <div className="h-full max-w-7xl px-6 mx-auto lg:px-8">
       <div className="h-full flex gap-x-3 content-between items-center text-3xl text-slate-500">
         <a
