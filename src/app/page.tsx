@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import DasbotLogo from "@/components/DasbotLogo";
 import TelegramButton from "@/components/TelegramButton";
@@ -24,12 +25,12 @@ export default function Home() {
           </p>
           <div className="mt-10 flex items-center gap-x-6">
             <TelegramButton url="https://t.me/derdiedas_quizbot" />
-            <a
-              href="/grammar"
-              className="text-base font-semibold leading-7 text-gray-900"
+            <Link
+              href="/der-die-das-cheatsheet"
+              className="text-sm font-semibold leading-7 text-gray-900"
             >
-              Read the grammar <span aria-hidden="true">→</span>
-            </a>
+              View the cheatsheet <span aria-hidden="true">→</span>
+            </Link>
           </div>
         </div>
         <div className="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mt-0 lg:mr-0 lg:max-w-none lg:flex-none xl:ml-32">
