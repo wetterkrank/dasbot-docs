@@ -29,7 +29,7 @@ export default function Home() {
               href="/der-die-das-cheatsheet"
               className="text-sm font-semibold leading-7 text-gray-900"
             >
-              View the cheatsheet <span aria-hidden="true">→</span>
+              Der/die/das cheatsheet <span aria-hidden="true">→</span>
             </Link>
           </div>
         </div>
