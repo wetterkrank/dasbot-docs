@@ -18,9 +18,9 @@ export const metadata: Metadata = {
     siteName: 'Dasbot',
     images: [
       {
-        url: '/img/Obermaschinist-Johann.jpg',
-        width: 1280,
-        height: 694,
+        url: '/img/dasbot.png',
+        width: 980,
+        height: 916,
       },
     ],
     locale: 'en_US',
