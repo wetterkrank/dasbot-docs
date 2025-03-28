@@ -5,6 +5,7 @@ const Footer = () => (
         <a
           className="hover:text-slate-700 fill-current"
           href="https://github.com/wetterkrank/dasbot"
+          title="Dasbot's source code on Github"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -18,6 +19,7 @@ const Footer = () => (
         <a
           className="hover:text-slate-700 fill-current"
           href="https://www.linkedin.com/in/antsiferov/"
+          title="LinkedIn: Alexander Antsiferov, Fullstack Web Developer, Ruby on Rails, React, TypeScript, Python, MongoDB"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

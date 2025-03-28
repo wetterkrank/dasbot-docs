@@ -23,13 +23,15 @@ export default function Home() {
             guidance, you will learn the genders of the 2000 most frequently
             used German nouns.
           </p>
-          <div className="mt-10 flex items-center gap-x-6">
+          <div className="mt-10 flex flex-col items-start gap-y-2 sm:flex-row sm:gap-x-6 sm:items-center">
             <TelegramButton url="https://t.me/derdiedas_quizbot" />
             <Link
               href="/der-die-das-cheatsheet"
               className="text-sm font-semibold leading-7 text-gray-900"
             >
-              Der/die/das cheatsheet <span aria-hidden="true">→</span>
+              <span className="whitespace-nowrap hover:underline">
+                Der/die/das cheatsheet <span aria-hidden="true">→</span>
+              </span>
             </Link>
           </div>
         </div>

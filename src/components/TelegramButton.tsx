@@ -1,14 +1,14 @@
 const TelegramButton = ({ url }: { url: string }) => (
   <a
   href={url}
-  className="inline-flex items-center gap-x-2 rounded-md bg-sky-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm
+  className="inline-flex items-center gap-x-2 rounded-md bg-sky-600 px-3 py-2 text-lg font-medium leading-7 text-white shadow-sm
   hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-300 focus:ring-4 focus:ring-blue-300"
 >
   Get it here
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="1.2em"
-    height="1.2em"
+    width="1.4em"
+    height="1.4em"
     fill="currentColor"
     className="inline"
     viewBox="0 0 16 16"
